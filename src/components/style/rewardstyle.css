@@ -1,0 +1,162 @@
+/* ------------------------------------------ */
+/* Footer Style */
+/* ------------------------------------------ */
+
+
+.px-4 {
+  color: white;
+}
+
+.cursor-pointer {
+  color: white;
+}
+
+/* ------------------------------------------ */
+
+
+.reward-main-div {
+  background: rgb(15,23,42);
+  background: linear-gradient(90deg, rgba(15,23,42,1) 0%, rgba(88,28,135,1) 35%, rgba(15,23,42,1) 100%);
+}
+.rewardHeading {
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    margin-left: 0.6em;
+}
+
+.rewardmain {
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.card {
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 30%;
+    margin: auto;
+    text-align: center;
+    float: left;
+  }
+
+
+  .rewanddata-container {
+
+    padding: 16px;
+  }
+
+  #reward-header {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+
+  }
+
+  #reward-para {
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-weight: 100;
+
+  }
+
+  @media screen and (min-width: 768px) {
+    .card {
+      width: calc(33.33% - 20px);
+    }
+  }
+
+  .card2 {
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 20%;
+    margin: auto;
+    float: left;
+  }
+
+  @media screen and (min-width: 768px) {
+    .card2 {
+      width: calc(33.33% - 20px);
+    }
+  }
+
+
+/* ------------------------------------------ */
+/* popup window Style */
+/* ------------------------------------------ */
+
+  .popup {
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .popup-content {
+    color: white;
+    background: rgb(15,23,42);
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+  }
+  
+  .report-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  #popupbutton {
+    margin: auto;
+    margin-top: 1em !important;
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #popupbutton:hover {
+    background-color: #0056b3;
+  }
+  
+  .reports-list {
+    column-count: 5;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    max-height: 200px;
+    cursor: pointer;
+  }
+  
+  .reports-list li {
+    margin-bottom: 0.7em;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .reports-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+
+  #report-table-para {
+    font-weight: 100;
+  }
